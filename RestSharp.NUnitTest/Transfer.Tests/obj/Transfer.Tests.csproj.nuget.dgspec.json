@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\Transfer.Tests\\Transfer.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\GluwaAPI.TestEngine\\GluwaAPI.TestEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\GluwaAPI.TestEngine\\GluwaAPI.TestEngine.csproj",
+        "projectName": "GluwaAPI.TestEngine",
+        "projectPath": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\GluwaAPI.TestEngine\\GluwaAPI.TestEngine.csproj",
+        "packagesPath": "C:\\Users\\Eugene\\.nuget\\packages\\",
+        "outputPath": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\GluwaAPI.TestEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eugene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.14.1, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            },
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[5.0.76, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "Nethereum.ABI": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Nethereum.Contracts": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Nethereum.KeyStore": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Nethereum.RPC": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Nethereum.Signer": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Nethereum.Signer.EIP712": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "QBitNinja.Client": {
+              "target": "Package",
+              "version": "[1.0.3.52, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\InvestApi.Tests\\InvestApi.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\InvestApi.Tests\\InvestApi.Tests.csproj",
+        "projectName": "InvestApi.Tests",
+        "projectPath": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\InvestApi.Tests\\InvestApi.Tests.csproj",
+        "packagesPath": "C:\\Users\\Eugene\\.nuget\\packages\\",
+        "outputPath": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\InvestApi.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eugene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\GluwaAPI.TestEngine\\GluwaAPI.TestEngine.csproj": {
+                "projectPath": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\GluwaAPI.TestEngine\\GluwaAPI.TestEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\Transfer.Tests\\Transfer.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\Transfer.Tests\\Transfer.Tests.csproj",
+        "projectName": "Transfer.Tests",
+        "projectPath": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\Transfer.Tests\\Transfer.Tests.csproj",
+        "packagesPath": "C:\\Users\\Eugene\\.nuget\\packages\\",
+        "outputPath": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\Transfer.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eugene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\GluwaAPI.TestEngine\\GluwaAPI.TestEngine.csproj": {
+                "projectPath": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\GluwaAPI.TestEngine\\GluwaAPI.TestEngine.csproj"
+              },
+              "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\InvestApi.Tests\\InvestApi.Tests.csproj": {
+                "projectPath": "D:\\My Projects\\Project.Samples\\RestSharp.NUnitTest\\InvestApi.Tests\\InvestApi.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

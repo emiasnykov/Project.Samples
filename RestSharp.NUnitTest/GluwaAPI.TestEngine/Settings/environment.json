@@ -1,0 +1,185 @@
+{
+  "Test": {
+    "addressPath": "testAddress.json",
+    "gluwaApi": "https://api-test.gluwa.com/",
+    "gluwaTest2Api": "https://gapi--test-test2.azurewebsites.net/",
+    "webhookReceiver": "https://gwebhookreceiver-test.azurewebsites.net/",
+    "qafunctionsexchange": "https://qafunctions-exchange.azurewebsites.net/",
+    "qafunctions": "https://qafunctionsgluwapro.azurewebsites.net/",
+    "users": {
+      "qaassertible": {
+        "apiKey": "e84a00d9-d732-4208-977a-c8c021f002e8",
+        "apiSecret": "ywA7Jtmhu3oTV2GhYAmK-OwmTZ7JaErzTVIJFc22ZHwHTw6kG7u8AC4IzITcYnYO"
+      },
+      "qaexchangemaker": {
+        "apiKey": "1406b025-719c-4d68-8b0a-50cdabe8b2fe",
+        "apiSecret": "307Ekmt0eochyugvATYExxXB6bKEPTZCKSdzpmPzTxYUO896w8QMcs2XtP8J_SDn",
+        "webhookUserID": "3f2b7db6-b51a-4f33-84fa-d48649ba2490"
+      },
+      "qamarketmaker": {
+        "apiKey": "e475e275-1b81-4580-8e16-61e02b92b59c",
+        "apiSecret": "1-gNK8ssOESZfAZNNdPt81GNX5N5L7tr3-vHVbXMDpvj1B1fMYel5pRQOGGQqr4P"
+      },
+      "qaaellareg": {
+        "apiKey": "qa.aella-add-reg",
+        "apiSecret": "t3st0rder"
+      },
+      "qajenfireg": {
+        "apiKey": "jenfi_test",
+        "apiSecret": "Bs7Wi@sqWNAvi34$cqXmme3@f#sr%$UP"
+      },
+      "qaaellamintandburn": {
+        "apiKey": "DcU4UQbMTA5saaFs",
+        "apiSecret": "Wa;B#nU5TmsAf6^]"
+      },
+      "qajenfimintandburn": {
+        "apiKey": "jenfi_test",
+        "apiSecret": "Bs7Wi@sqWNAvi34$cqXmme3@f#sr%$UP"
+      }
+    },
+    "orderExpiryInMinutes": "5"
+  },
+
+  "EphEnv": {
+    "addressPath": "testAddress.json",
+    "gluwaApi": "https://rngxxx-qa-gluwa-api.azurewebsites.net/",
+    "gluwaAuthUrl": "https://rngxxx-qa-gluwa-auth.azurewebsites.net/",
+    "gluwaTest2Api": "https://gapi--test-test2.azurewebsites.net/",
+    "webhookReceiver": "https://gwebhookreceiver-test.azurewebsites.net/",
+    "qafunctionsexchange": "https://qafunctions-exchange.azurewebsites.net/",
+    "qafunctions": "https://qafunctionsgluwapro.azurewebsites.net/",
+    "users": {
+      "qaassertible": {
+        "apiKey": "e84a00d9-d732-4208-977a-c8c021f002e8",
+        "apiSecret": "ywA7Jtmhu3oTV2GhYAmK-OwmTZ7JaErzTVIJFc22ZHwHTw6kG7u8AC4IzITcYnYO"
+      },
+      "qaexchangemaker": {
+        "apiKey": "1406b025-719c-4d68-8b0a-50cdabe8b2fe",
+        "apiSecret": "307Ekmt0eochyugvATYExxXB6bKEPTZCKSdzpmPzTxYUO896w8QMcs2XtP8J_SDn",
+        "webhookUserID": "3f2b7db6-b51a-4f33-84fa-d48649ba2490"
+      },
+      "qamarketmaker": {
+        "apiKey": "e475e275-1b81-4580-8e16-61e02b92b59c",
+        "apiSecret": "1-gNK8ssOESZfAZNNdPt81GNX5N5L7tr3-vHVbXMDpvj1B1fMYel5pRQOGGQqr4P"
+      },
+      "qaaellareg": {
+        "apiKey": "qa.aella-add-reg",
+        "apiSecret": "t3st0rder"
+      },
+      "qajenfireg": {
+        "apiKey": "jenfi_test",
+        "apiSecret": "Bs7Wi@sqWNAvi34$cqXmme3@f#sr%$UP"
+      },
+      "qaaellamintandburn": {
+        "apiKey": "DcU4UQbMTA5saaFs",
+        "apiSecret": "Wa;B#nU5TmsAf6^]"
+      },
+      "qajenfimintandburn": {
+        "apiKey": "jenfi_test",
+        "apiSecret": "Bs7Wi@sqWNAvi34$cqXmme3@f#sr%$UP"
+      }
+    },
+    "orderExpiryInMinutes": "5"
+  },
+
+  "Test2": {
+    "addressPath": "testAddress.json",
+    "gluwaApi": "https://api-test2.gluwa.com/",
+    "webhookReceiver": "https://gwebhookreceiver-test.azurewebsites.net/",
+    "qafunctionsexchange": "https://qafunctions-exchange.azurewebsites.net/",
+    "qafunctions": "https://qafunctionsgluwapro.azurewebsites.net/",
+    "users": {
+      "qaassertible": {
+        "apiKey": "e84a00d9-d732-4208-977a-c8c021f002e8",
+        "apiSecret": "ywA7Jtmhu3oTV2GhYAmK-OwmTZ7JaErzTVIJFc22ZHwHTw6kG7u8AC4IzITcYnYO"
+      },
+      "qaexchangemaker": {
+        "apiKey": "1406b025-719c-4d68-8b0a-50cdabe8b2fe",
+        "apiSecret": "307Ekmt0eochyugvATYExxXB6bKEPTZCKSdzpmPzTxYUO896w8QMcs2XtP8J_SDn",
+        "webhookUserID": "3f2b7db6-b51a-4f33-84fa-d48649ba2490"
+      },
+      "qamarketmaker": {
+        "apiKey": "e475e275-1b81-4580-8e16-61e02b92b59c",
+        "apiSecret": "1-gNK8ssOESZfAZNNdPt81GNX5N5L7tr3-vHVbXMDpvj1B1fMYel5pRQOGGQqr4P"
+      },
+      "qaaellareg": {
+        "apiKey": "qa.aella-add-reg",
+        "apiSecret": "t3st0rder"
+      },
+      "qajenfireg": {
+        "apiKey": "jenfi_test",
+        "apiSecret": "Bs7Wi@sqWNAvi34$cqXmme3@f#sr%$UP"
+      },
+      "qajenfimintandburn": {
+        "apiKey": "jenfi_test",
+        "apiSecret": "Bs7Wi@sqWNAvi34$cqXmme3@f#sr%$UP"
+      },
+      "qaaellamintandburn": {
+        "apiKey": "DcU4UQbMTA5saaFs",
+        "apiSecret": "Wa;B#nU5TmsAf6^]"
+      }
+    },
+    "orderExpiryInMinutes": "5"
+  },
+
+  "Sandbox": {
+    "addressPath": "testAddress.json",
+    "gluwaApi": "https://sandbox.api.gluwa.com/",
+    "webhookReceiver": "https://gwebhookreceiver-sandbox.azurewebsites.net/",
+    "qafunctionsexchange": "https://qafunctions-exchange.azurewebsites.net/",
+    "qafunctions": "https://qafunctionsgluwapro.azurewebsites.net/",
+    "users": {
+      "qaassertible": {
+        "apiKey": "41a6225b-f15e-47b6-a77b-6012ec558d34",
+        "apiSecret": "R073n3uvjq42bpVhFavsBxfO_meqeKNR3_7xuNuDhUkL4ITsd6dj5eFwAJs_WZIk"
+
+      },
+      "qaexchangemaker": {
+        "apiKey": "9b6c8b63-a043-4158-8037-6c9d9262c0f0",
+        "apiSecret": "2ZizE2UBqN3pRT7_tohDYEG3H0A6U-EV24yJEr4eqIFvDOsSaY64ShUSlFJF-N-N",
+        "webhookUserID": "336755f7-badd-4679-8968-b94efc3709c2"
+      },
+      "qaaellamintandburn": {
+        "apiKey": "8942fd5f-12b0-4bba-8194-d19e7b3bc9f7",
+        "apiSecret": "eR,FrYcoy>{7X6)hDTTqIXpmCmMVGmY.2bLI;C2RL39awcT=sR"
+      }
+    },
+    "orderExpiryInMinutes": "5"
+  },
+
+  "Staging": {
+    "addressPath": "mainAddress.json",
+    "gluwaApi": "https://api-staging.gluwa.com/",
+    "webhookReceiver": "https://gwebhookreceiver-stage.azurewebsites.net/",
+    "qafunctions": "https://qafunctionsgluwapro.azurewebsites.net/",
+    "users": {
+      "qaassertible": {
+        "apiKey": "f51a6756-9632-4dfe-8c8a-4d1e3b06e567",
+        "apiSecret": "g_tY3DsU26Zf1D3ZlXc5NeULZ9PhTAHLg6ue4y3BmB-srLRSBN1dIa7q3kAfDg4B"
+      },
+      "qaexchangemaker": {
+        "apiKey": "2c189c78-f2ce-4101-9267-5487785a8842",
+        "apiSecret": "-6QgLg1QU8xWhsjpUdkwz3NjSpA2GMpWJRiCOSvDS15X_UvA2NS6z2jy3bxs4WbP",
+        "webhookUserID": "eb530dc6-6af7-4769-8222-99cd2d6545b3"
+      },
+      "qaaellamintandburn": {
+        "apiKey": "c3591445-1ca2-4866-af09-68cd4ab4ed77",
+        "apiSecret": "bsWKo$mWt,PWNa9T7%5300E@z;]jYg4FTaBRd26.C*]HNFnfGH"
+      }
+    },
+    "orderExpiryInMinutes": "20160"
+
+  },
+
+  "Production": {
+    "gluwaApi": "https://api.gluwa.com/",
+    "addressPath": "mainAddress.json",
+    "qafunctions": "https://qafunctionsgluwapro.azurewebsites.net/",
+    "users": {
+      "qaassertible": {
+        "apiKey": "f51a6756-9632-4dfe-8c8a-4d1e3b06e567",
+        "apiSecret": "g_tY3DsU26Zf1D3ZlXc5NeULZ9PhTAHLg6ue4y3BmB-srLRSBN1dIa7q3kAfDg4B"
+      }
+    }
+  }
+}

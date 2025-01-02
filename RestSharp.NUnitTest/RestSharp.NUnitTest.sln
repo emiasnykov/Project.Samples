@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exchange.Tests", "Exchange.Tests\Exchange.Tests.csproj", "{B7E969E6-4C8C-4BD4-8F21-703C0A4E2270}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketMaker.Tests", "MarketMaker.Tests\MarketMaker.Tests.csproj", "{D8579EA0-3DD2-4AA7-BC32-2115B950174F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GluwaAPI.TestEngine", "GluwaAPI.TestEngine\GluwaAPI.TestEngine.csproj", "{68B031D4-EC99-4581-A70E-64A1B6CB2D32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transfer.Tests", "Transfer.Tests\Transfer.Tests.csproj", "{BD7B105E-E096-4A4B-8074-23ADC4B6CC73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gluwa", "Gluwa", "{48848A0F-F1E0-4132-A433-023A1DA86B9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GluwaApiTests", "GluwaApiTests", "{4AD2C838-A8A9-411A-9A2C-273B10B35793}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestApi.Tests", "InvestApi.Tests\InvestApi.Tests.csproj", "{4C8CD686-4A79-417B-85CD-B1B4585F9065}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7E969E6-4C8C-4BD4-8F21-703C0A4E2270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E969E6-4C8C-4BD4-8F21-703C0A4E2270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E969E6-4C8C-4BD4-8F21-703C0A4E2270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E969E6-4C8C-4BD4-8F21-703C0A4E2270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8579EA0-3DD2-4AA7-BC32-2115B950174F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8579EA0-3DD2-4AA7-BC32-2115B950174F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8579EA0-3DD2-4AA7-BC32-2115B950174F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8579EA0-3DD2-4AA7-BC32-2115B950174F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B031D4-EC99-4581-A70E-64A1B6CB2D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B031D4-EC99-4581-A70E-64A1B6CB2D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B031D4-EC99-4581-A70E-64A1B6CB2D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B031D4-EC99-4581-A70E-64A1B6CB2D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7B105E-E096-4A4B-8074-23ADC4B6CC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7B105E-E096-4A4B-8074-23ADC4B6CC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7B105E-E096-4A4B-8074-23ADC4B6CC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7B105E-E096-4A4B-8074-23ADC4B6CC73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8CD686-4A79-417B-85CD-B1B4585F9065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8CD686-4A79-417B-85CD-B1B4585F9065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8CD686-4A79-417B-85CD-B1B4585F9065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8CD686-4A79-417B-85CD-B1B4585F9065}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7E969E6-4C8C-4BD4-8F21-703C0A4E2270} = {4AD2C838-A8A9-411A-9A2C-273B10B35793}
+		{D8579EA0-3DD2-4AA7-BC32-2115B950174F} = {4AD2C838-A8A9-411A-9A2C-273B10B35793}
+		{68B031D4-EC99-4581-A70E-64A1B6CB2D32} = {48848A0F-F1E0-4132-A433-023A1DA86B9E}
+		{BD7B105E-E096-4A4B-8074-23ADC4B6CC73} = {4AD2C838-A8A9-411A-9A2C-273B10B35793}
+		{4AD2C838-A8A9-411A-9A2C-273B10B35793} = {48848A0F-F1E0-4132-A433-023A1DA86B9E}
+		{4C8CD686-4A79-417B-85CD-B1B4585F9065} = {4AD2C838-A8A9-411A-9A2C-273B10B35793}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D4C1DB5-6E79-4844-9581-B84E2577A667}
+	EndGlobalSection
+EndGlobal

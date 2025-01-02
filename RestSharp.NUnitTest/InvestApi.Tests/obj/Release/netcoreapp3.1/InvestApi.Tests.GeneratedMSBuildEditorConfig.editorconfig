@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = InvestApi.Tests
+build_property.ProjectDir = Y:\Gluwa\CdUtils\RestSharp.NUnitTest\InvestApi.Tests\

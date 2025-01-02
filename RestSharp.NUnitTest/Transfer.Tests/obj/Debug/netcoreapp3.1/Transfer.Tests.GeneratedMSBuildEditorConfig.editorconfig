@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Transfer.Tests
+build_property.ProjectDir = D:\My Projects\Project.Samples\RestSharp.NUnitTest\Transfer.Tests\

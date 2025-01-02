@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = GluwaAPI.TestEngine
+build_property.ProjectDir = D:\My Projects\Project.Samples\RestSharp.NUnitTest\GluwaAPI.TestEngine\

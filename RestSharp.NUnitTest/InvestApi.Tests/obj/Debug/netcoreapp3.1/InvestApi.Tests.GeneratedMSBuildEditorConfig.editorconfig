@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = InvestApi.Tests
+build_property.ProjectDir = D:\My Projects\Project.Samples\RestSharp.NUnitTest\InvestApi.Tests\

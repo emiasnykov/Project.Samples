@@ -1,0 +1,8 @@
+MarketMaker.Tests.MarketMakerTests("Test").MarketMaker_BtcsUsdcg_ExecuteFail_Neg
+MarketMaker.Tests.MarketMakerTests("Test").MarketMaker_BtcsUsdcg_Pos
+MarketMaker.Tests.MarketMakerTests("Test").MarketMaker_sUsdcgBtc_ExecuteFail_Neg
+MarketMaker.Tests.MarketMakerTests("Test").MarketMaker_sUsdcgBtc_Pos
+MarketMaker.Tests.MarketMakerTests("Test").MarketMaker_Z_BtcsUsdcg_CreateOrderNotCanceled_Pos
+MarketMaker.Tests.MarketMakerTests("Test").MarketMaker_Z_BtcsUsdcg_IntervalOrders_Pos
+MarketMaker.Tests.MarketMakerTests("Test").MarketMaker_Z_sUsdcgBtc_CreateOrderNotCanceled_Pos
+MarketMaker.Tests.MarketMakerTests("Test").MarketMaker_Z_sUsdcgBtc_IntervalOrders_Pos
