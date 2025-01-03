@@ -1,0 +1,189 @@
+﻿using System;
+using System.Linq;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using NUnit.Framework; 
+
+
+namespace CSTool.UITests
+{
+    public class RefundedDepositTests
+    {
+        IWebDriver driver;
+
+        [SetUp]
+        public void BeforeEachTest()
+        {
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("https://gtool-test.azurewebsites.net/");
+        }
+
+        private string GenerateRandomAccountNumber(int length)
+        {
+            var generatedNumber = "";
+            Random rnd = new Random();
+            for (int i = 0; i < length; i++)
+                generatedNumber += rnd.Next(0, 9);
+            return generatedNumber;
+        }
+
+        public void ClickCreateRefundedDeposit()
+        {
+            var createRefundedBankDeposit = driver.FindElements(By.XPath("/html/body/div/div[2]/a")).Where(c => c.Text == "Create Refunded Bank Deposit");
+            createRefundedBankDeposit.LastOrDefault().Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            driver.FindElements(By.TagName("h2")).Where(c => c.Text == "Create Refunded Bank Deposit");
+        }
+
+ 
+
+
+        [Test]
+        public void CreateRefundedDeposit_AllEmpty()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Bank Deposit")).Click();
+            ClickCreateRefundedDeposit();
+            //click Create with all fields empty
+            driver.FindElement(By.XPath("/html/body/div/div[1]/div/form/div[9]/input")).Click();
+            var depositCodeError = driver.FindElement(By.Id("DepositCode-error"));
+            var amountError = driver.FindElement(By.Id("Amount-error"));
+            var accountNumberError = driver.FindElement(By.Id("AccountNumber-error"));
+            var usernameError = driver.FindElement(By.Id("Username-error"));
+
+            SharedMethods.Screenshot(driver);
+
+            Assert.IsTrue(depositCodeError.Text == "The DepositCode field is required.");
+            Assert.IsTrue(amountError.Text == "The Amount field is required.");
+            Assert.IsTrue(accountNumberError.Text == "The AccountNumber field is required.");
+            Assert.IsTrue(usernameError.Text == "The Username field is required.");
+        }
+
+        [Test]
+        public void CreateRefundedDeposit_DepositCode_Filled()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Bank Deposit")).Click();
+            ClickCreateRefundedDeposit();
+            driver.FindElement(By.Id("DepositCode")).SendKeys("11110");
+            driver.FindElement(By.XPath("/html/body/div/div[1]/div/form/div[9]/input")).Click();
+
+            SharedMethods.Screenshot(driver);
+
+            var amountError = driver.FindElement(By.Id("Amount-error"));
+            var  accountNumberError = driver.FindElement(By.Id("AccountNumber-error"));
+            var usernameError = driver.FindElement(By.Id("Username-error"));
+
+            Assert.IsTrue(amountError.Text == "The Amount field is required.");
+            Assert.IsTrue(accountNumberError.Text == "The AccountNumber field is required.");
+            Assert.IsTrue(usernameError.Text == "The Username field is required.");
+        }
+
+        [Test]
+        public void CreateRefundedDeposit_Amount_Filled()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Bank Deposit")).Click();
+            ClickCreateRefundedDeposit();
+
+            driver.FindElement(By.Id("Amount")).SendKeys("1000");
+            driver.FindElement(By.XPath("/html/body/div/div[1]/div/form/div[9]/input")).Click();
+
+            SharedMethods.Screenshot(driver);
+
+            var depositCodeError = driver.FindElement(By.Id("DepositCode-error"));
+            var accountNumberError = driver.FindElement(By.Id("AccountNumber-error"));
+            var usernameError = driver.FindElement(By.Id("Username-error"));
+
+            Assert.IsTrue(depositCodeError.Text == "The DepositCode field is required.");
+            Assert.IsTrue(accountNumberError.Text == "The AccountNumber field is required.");
+            Assert.IsTrue(usernameError.Text == "The Username field is required.");
+        }
+
+        [Test]
+        public void CreateRefundedDeposit_AccountNum_Filled()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Bank Deposit")).Click();
+            ClickCreateRefundedDeposit();
+            var randomNumber = GenerateRandomAccountNumber(16);
+
+
+            driver.FindElement(By.Id("AccountNumber")).SendKeys(randomNumber);
+            driver.FindElement(By.XPath("/html/body/div/div[1]/div/form/div[9]/input")).Click();
+
+            SharedMethods.Screenshot(driver);
+
+
+            var depositCodeError = driver.FindElement(By.Id("DepositCode-error"));
+            var amountError = driver.FindElement(By.Id("Amount-error"));
+            var usernameError = driver.FindElement(By.Id("Username-error"));
+
+            Assert.IsTrue(depositCodeError.Text == "The DepositCode field is required.");
+            Assert.IsTrue(amountError.Text == "The Amount field is required.");
+            Assert.IsTrue(usernameError.Text == "The Username field is required.");
+
+
+
+        }
+
+
+        [Test]
+        public void CreateRefundedDeposit_Username_Filled()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Bank Deposit")).Click();
+            ClickCreateRefundedDeposit();
+
+
+            driver.FindElement(By.Id("Username")).SendKeys("qa.test3");
+            driver.FindElement(By.XPath("/html/body/div/div[1]/div/form/div[9]/input")).Click();
+
+            SharedMethods.Screenshot(driver);
+
+            var depositCodeError = driver.FindElement(By.Id("DepositCode-error"));
+            var amountError = driver.FindElement(By.Id("Amount-error"));
+            var accountNumberError = driver.FindElement(By.Id("AccountNumber-error"));
+
+
+            Assert.IsTrue(depositCodeError.Text == "The DepositCode field is required.");
+            Assert.IsTrue(amountError.Text == "The Amount field is required.");
+            Assert.IsTrue(accountNumberError.Text == "The AccountNumber field is required.");
+
+        }
+
+        [Test]
+        public void CreateRefundedDeposit_ClickBackToList()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Bank Deposit")).Click();
+            ClickCreateRefundedDeposit();
+
+            driver.FindElement(By.LinkText("Back to List")).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+
+            var result = driver.FindElements(By.TagName("h2")).Where(c => c.Text == "Bank Deposit List");
+            SharedMethods.Screenshot(driver);
+
+            Assert.IsTrue(result.LastOrDefault().Displayed);
+
+        }
+
+
+
+
+        [TearDown]
+        public void CleanUp()
+        {
+            if (driver != null)
+                driver.Quit();
+        }
+
+    }
+}

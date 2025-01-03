@@ -1,0 +1,207 @@
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
+using System;
+using System.Linq;
+
+
+namespace CSTool.UITests
+{
+    public class UptimeMonitoringTests
+    {
+        private IWebDriver driver;
+        private readonly string testUri = "https://qafunctions.azurewebsites.net/api/TestServiceUri?code=n2rjzyqB18Vei4txHZ38F5RPHmTNcwkx4vlaNkCKzLtwXutNavMVxQ==&type=";
+
+        public string GenerateRandomString(int length)
+        {
+            string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            Random random = new Random();
+            var randomString = "";
+
+            for (int i = 0; i < length; i++)
+            {
+                randomString += chars[random.Next(chars.Length)];
+            }
+            return randomString;
+        }
+
+        [SetUp]
+        public void BeforeEachTest()
+        {
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("https://gtool-test.azurewebsites.net/");
+
+        }
+
+        [Test]
+        public void UptimeMonitoring_ClickCreateNew()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Uptime Monitoring")).Click();
+
+            driver.FindElement(By.LinkText("Create New")).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            driver.FindElements(By.TagName("h2")).Where(c => c.Text == "Create");
+
+            driver.FindElement(By.Id("Name")).SendKeys("Success-test");
+            driver.FindElement(By.Id("ServiceUri")).SendKeys(testUri + "success");
+            driver.FindElement(By.XPath("/html/body/div/div[1]/div/form/div[3]/input")).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+
+            var result = driver.FindElements(By.TagName("td")).Where(c => c.Text == "Success-test");
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(result.LastOrDefault().Displayed);
+            // Assert.IsTrue(result.LastOrDefault().Displayed);
+        }
+
+        [Test]
+        public void UptimeMonitoring_Z_Create_LongNameError()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Uptime Monitoring")).Click();
+
+            driver.FindElement(By.LinkText("Create New")).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            driver.FindElements(By.TagName("h2")).Where(c => c.Text == "Create");
+
+            var longUsername = GenerateRandomString(129);
+            driver.FindElement(By.Id("Name")).SendKeys(longUsername);
+            driver.FindElement(By.Id("ServiceUri")).SendKeys(testUri + "success");
+            driver.FindElement(By.XPath("/html/body/div/div[1]/div/form/div[3]/input")).Click();
+
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            var result = driver.FindElement(By.Id("Name-error"));
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(result.Text.Contains("The field Name must be a string with a maximum length of 128."));
+        }
+
+        [Test]
+        public void UptimeMonitoring_Z_Create_ServiceUriError()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Uptime Monitoring")).Click();
+
+            driver.FindElement(By.LinkText("Create New")).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            driver.FindElements(By.TagName("h2")).Where(c => c.Text == "Create");
+
+            driver.FindElement(By.Id("Name")).SendKeys("test");
+            var longServiceUri = GenerateRandomString(2084);
+            driver.FindElement(By.Id("ServiceUri")).SendKeys(longServiceUri);
+            driver.FindElement(By.XPath("/html/body/div/div[1]/div/form/div[3]/input")).Click();
+
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            var result = driver.FindElement(By.Id("ServiceUri-error"));
+
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(result.Text.Contains("The field ServiceUri must be a string with a maximum length of 2083."));
+        }
+
+        [Test]
+        public void UptimeMonitoring_Cr_A_Logs()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Uptime Monitoring")).Click();
+
+            driver.FindElement(By.XPath("/html/body/div/table/tbody/tr[2]/td[4]/a[1]")).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            var result = driver.FindElements(By.TagName("h2")).Where(c => c.Text.Contains("Monthly Uptime logs"));
+
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(result.LastOrDefault().Displayed);
+        }
+
+        [Test]
+        public void UptimeMonitoring_Cr_B_Edit()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Uptime Monitoring")).Click();
+
+            driver.FindElement(By.XPath("/html/body/div/table/tbody/tr[2]/td[4]/a[2]")).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            driver.FindElements(By.TagName("h2")).Where(c => c.Text == "Edit");
+
+            var name = driver.FindElement(By.Id("Name"));
+            name.Clear();
+            name.SendKeys("ServiceUri-Failed");
+
+            var serviceUri = driver.FindElement(By.Id("ServiceUri"));
+            serviceUri.Clear();
+            serviceUri.SendKeys(testUri + "failed");
+
+            driver.FindElement(By.XPath("/html/body/div/div[1]/div/form/div[3]/input")).Click();
+
+            var result = driver.FindElement(By.XPath("/html/body/div/div"));
+            var editedName = driver.FindElement(By.XPath("/html/body/div/table/tbody/tr[2]/td[1]"));
+            var editedUri = driver.FindElement(By.XPath("/html/body/div/table/tbody/tr[2]/td[2]"));
+
+            SharedMethods.Screenshot(driver);
+
+            Assert.IsTrue(result.Text.Contains("service edit successfully"));
+            Assert.IsTrue(editedName.Text.Contains("ServiceUri-Failed"));
+            Assert.IsTrue(editedUri.Text.Contains("failed"));
+
+
+        }
+
+        [Test]
+        public void UptimeMonitoring_Delete()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Uptime Monitoring")).Click();
+
+            driver.FindElement(By.XPath("/html/body/div/table/tbody/tr[2]/td[4]/a[3]")).Click();
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait.Until<IWebElement>(c => c.FindElement(By.XPath("/html/body/div/h2")));
+
+            driver.FindElement(By.XPath("/html/body/div/div/form/input[2]")).Click();//click Delete
+
+            var result = wait.Until<IWebElement>(c => c.FindElement(By.XPath("/html/body/div/div")));
+
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(result.Text.Contains("service delete successfully"));
+
+
+        }
+
+        [Test]
+        public void UptimeMonitoring_EmptyFields()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Uptime Monitoring")).Click();
+
+            driver.FindElement(By.LinkText("Create New")).Click();
+
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            driver.FindElement(By.XPath("/html/body/div/div[1]/div/form/div[3]/input")).Click();
+
+            var nameError = driver.FindElement(By.Id("Name-error"));
+            var serviceuriError = driver.FindElement(By.Id("ServiceUri-error"));
+
+            SharedMethods.Screenshot(driver);
+
+            Assert.IsTrue(nameError.Text == "The Name field is required.");
+            Assert.IsTrue(serviceuriError.Text == "The ServiceUri field is required.");
+
+
+        }
+
+        [TearDown]
+        public void CleanUp()
+        {
+            if (driver != null)
+            {
+                driver.Quit();
+            }
+        }
+
+    }
+}

@@ -1,0 +1,14 @@
+BlockExplorer.UI.Tests.BlockTests.Blocks_CheckBlockHistoryList_Pos
+BlockExplorer.UI.Tests.BlockTests.Blocks_CheckSingleBlockInfo_Pos
+BlockExplorer.UI.Tests.HomeTests.Home_CheckBlockchainInfo_Pos
+BlockExplorer.UI.Tests.HomeTests.Home_CheckLatestBlocks_Pos
+BlockExplorer.UI.Tests.HomeTests.Home_CheckLatestTransactions_Pos
+BlockExplorer.UI.Tests.HomeTests.Home_CheckNavigationLinks_Pos
+BlockExplorer.UI.Tests.HomeTests.Home_CheckSingleAddressInfo_Pos
+BlockExplorer.UI.Tests.HomeTests.Home_CheckSingleBlockInfo_Pos
+BlockExplorer.UI.Tests.HomeTests.Home_CheckSingleTransactionInfo_Pos
+BlockExplorer.UI.Tests.HomeTests.Home_SearchByAddress_Pos
+BlockExplorer.UI.Tests.HomeTests.Home_SearchByBlockId_Pos
+BlockExplorer.UI.Tests.HomeTests.Home_SearchByTransactionId_Pos
+BlockExplorer.UI.Tests.TransactionTests.Transaction_CheckSingleTransactionInfo_Pos
+BlockExplorer.UI.Tests.TransactionTests.Transactions_CheckTransactionHistory_Pos

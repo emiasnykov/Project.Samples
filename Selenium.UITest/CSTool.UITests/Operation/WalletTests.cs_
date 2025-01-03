@@ -1,0 +1,189 @@
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
+
+namespace CSTool.UITests
+{
+    public class WalletTests
+    {
+        private IWebDriver driver;
+
+        [SetUp]
+        public void BeforeEachTest()
+        {
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("https://gtool-test.azurewebsites.net/");
+        }
+
+        public void ClickWallets()
+        {
+            driver.FindElement(By.XPath("/html/body/div/div[2]/table/tbody/tr/td[1]/form/input")).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+        }
+        public void ClickTransactions()
+        {
+            //Click Wallets Button
+            ClickWallets();
+            //Click Transaction button
+            driver.FindElement(By.CssSelector("body > div > div:nth-child(3) > table > tbody > tr > td:nth-child(1) > a")).Click();
+        }
+
+        //[Test]
+        //public void Wallets_ClickTransactions()
+        //{
+        //    SharedMethods.Login(driver);
+        //    SharedMethods.ClickGluwaUserInfo(driver);
+        //    SharedMethods.SearchUsername(driver, "qa.test1");
+        //    ClickTransactions();
+        //    var result = driver.FindElements(By.TagName("h2")).Where(c => c.Text == "Transaction list");
+        //    SharedMethods.Screenshot(driver);
+        //    Assert.IsTrue(result.LastOrDefault().Displayed);
+        //}
+
+        //[Test]
+        //public void Wallets_Transactions_Nav()
+        //{
+        //    SharedMethods.Login(driver);
+        //    SharedMethods.ClickGluwaUserInfo(driver);
+        //    SharedMethods.SearchUsername(driver, "qa.test1");
+        //    ClickTransactions();
+        //    var result = driver.FindElement(By.LinkText(">>"));
+        //    var iNextButtonPresent = result.Displayed;
+
+        //    //test next button
+        //    do
+        //    {
+        //        result.Click();
+        //        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+        //        try
+        //        {
+        //            result = driver.FindElement(By.LinkText(">>"));
+        //        }
+        //        catch
+        //        {
+        //            iNextButtonPresent = false;
+        //        }
+        //    } while (iNextButtonPresent == true);
+        //    SharedMethods.Screenshot(driver, "Wallets_Transactions_EndNav");
+        //    Assert.IsFalse(iNextButtonPresent);
+
+        //    //test go back button
+        //    result = driver.FindElement(By.LinkText("<<"));
+        //    var isBackButtonPrsent = driver.FindElement(By.LinkText("<<")).Displayed;
+        //    do
+        //    {
+        //        result.Click();
+        //        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+        //        try
+        //        {
+        //            result = driver.FindElement(By.LinkText("<<"));
+        //        }
+        //        catch
+        //        {
+        //            isBackButtonPrsent = false;
+        //        }
+        //    } while (isBackButtonPrsent == true);
+        //    SharedMethods.Screenshot(driver, "Wallets_Transactions_FirstNav");
+        //    Assert.IsFalse(isBackButtonPrsent);
+        //}
+
+        //[Test]
+        //public void Wallets_Transactions_ClickUserInfo()
+        // {
+        //     SharedMethods.Login(driver);
+        //     SharedMethods.ClickGluwaUserInfo(driver);
+        //     SharedMethods.SearchUsername(driver, "qa.test1");
+        //     ClickTransactions();
+
+        //     var btnUserInfo = "body > div > div > div:nth-child(4) > table > tbody > tr > td:nth-child(2) > form > input";
+        //     driver.FindElement(By.CssSelector(btnUserInfo)).Click();
+        //     driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+        //     var result = driver.FindElements(By.XPath("/html/body/div/div[1]/dl/dd[1]")).Where(c => c.Text == "qa.test1");
+        //     SharedMethods.Screenshot(driver);
+        //     Assert.IsTrue(result.LastOrDefault().Displayed);
+        // }
+
+        //[Test]
+        //public void Wallets_Transactions_ClickWallets()
+        //{
+        //    SharedMethods.Login(driver);
+        //    SharedMethods.ClickGluwaUserInfo(driver);
+        //    SharedMethods.SearchUsername(driver, "qa.test1");
+        //    ClickTransactions();
+
+        //    var btnWallet = "body > div > div > div:nth-child(4) > table > tbody > tr > td:nth-child(1) > a";
+        //    driver.FindElement(By.CssSelector(btnWallet)).Click();
+
+        //    var result = driver.FindElements(By.TagName("h4")).Where(c => c.Text == "GluwaUser");
+        //    SharedMethods.Screenshot(driver);
+        //    Assert.IsTrue(result.LastOrDefault().Displayed);
+        //}
+
+        //[Test]
+        //public void Wallets_Transactions_Logout()
+        //{
+        //    SharedMethods.Login(driver);
+        //    SharedMethods.ClickGluwaUserInfo(driver);
+        //    SharedMethods.SearchUsername(driver, "qa.test1");
+        //    ClickTransactions();
+
+        //    //selector for logout button
+        //    var btnLogout = "body > div > div > div:nth-child(4) > table > tbody > tr > td:nth-child(3) > form > input.btn.btn-secondary";
+
+        //    //wait
+        //    driver.FindElement(By.CssSelector(btnLogout)).Click();
+        //    var result = driver.FindElements(By.TagName("h2")).Where(c => c.Text == "GluwaUserSearch");
+        //    SharedMethods.Screenshot(driver);
+        //    Assert.IsTrue(result.LastOrDefault().Displayed);
+
+        //}
+
+        //[Test]
+        //public void Wallets_Details_Logout()
+        //{
+        //    SharedMethods.Login(driver);
+        //    SharedMethods.ClickGluwaUserInfo(driver);
+        //    SharedMethods.SearchUsername(driver, "qa.test1");
+        //    ClickWallets();
+        //    //selector for the log out button
+        //    var btnLogout = "body > div > div:nth-child(3) > table > tbody > tr > td:nth-child(3) > form > input.btn.btn-secondary";
+        //    driver.FindElement(By.CssSelector(btnLogout)).Click();
+
+        //    //wait 
+        //    driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+        //    var result = driver.FindElements(By.TagName("h2")).Where(c => c.Text == "GluwaUserSearch");
+        //    SharedMethods.Screenshot(driver);
+        //    Assert.IsTrue(result.LastOrDefault().Displayed);
+        //}
+
+        //[Test]
+        //public void Wallets_Details_ClickUserInfo()
+        //{
+        //    SharedMethods.Login(driver);
+        //    SharedMethods.ClickGluwaUserInfo(driver);
+        //    SharedMethods.SearchUsername(driver, "qa.test1");
+        //    ClickWallets();
+
+        //    var userInfo = driver.FindElement(By.CssSelector("body > div > div:nth-child(3) > table > tbody > tr > td:nth-child(2) > form > input"));
+        //    userInfo.Click();
+
+        //    driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+        //    var result = driver.FindElements(By.TagName("h2")).Where(c => c.Text == "Details");
+        //    SharedMethods.Screenshot(driver);
+        //    Assert.IsTrue(result.LastOrDefault().Displayed);
+
+        //}
+
+
+        [TearDown]
+        public void CleanUp()
+        {
+            if (driver != null)
+            {
+                driver.Quit();
+            }
+        }
+
+    }
+}

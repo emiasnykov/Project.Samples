@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using NUnit.Framework;
+
+namespace CSTool.UITests
+{
+    public class CryptoFundingSource
+    {
+        IWebDriver driver;
+
+        [SetUp]
+        public void BeforeEachTest()
+        {
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("https://gtool-test.azurewebsites.net/");
+        }
+
+        public void SelectCryptoFundingSource()
+        {
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("CryptoFundingSource")).Click();
+        }
+
+        public void SearchCrypto(string address)
+        {
+            driver.FindElement(By.Id("BitcoinAddress")).SendKeys(address);
+            driver.FindElement(By.XPath("/html/body/div/div/form/input[1]")).Click();
+        }
+
+        [Test]
+        public void Valid_FundingSource() 
+        {
+            SharedMethods.Login(driver);
+            SelectCryptoFundingSource();
+            SearchCrypto("1QFCM6czj89szVTbUg7ZxzEz5tSJpzhCXR");
+            var result = driver.FindElement(By.XPath("/html/body/div/table/tbody/tr/td[1]"));
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(result.Displayed);
+            Assert.IsTrue(result.Text == "344ca37f-9299-4cd2-8202-ce28a1c3f209");
+        }
+
+        [Test]
+        public void Invalid_FundingSource()
+        {
+            SharedMethods.Login(driver);
+            SelectCryptoFundingSource();
+            SearchCrypto("1QFCM6czj89szVTbUg7ZxzEz5tSJpzhCXX");
+            var error = driver.FindElement(By.CssSelector("body > div > div.alert.alert-success.alert-dismissible"));
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(error.Displayed);
+            Assert.IsTrue(error.Text.Contains("Could not find this address."));
+        }
+
+        [TearDown]
+        public void CleanUp()
+        {
+            if (driver != null)
+                driver.Quit();
+        }
+
+    }
+}

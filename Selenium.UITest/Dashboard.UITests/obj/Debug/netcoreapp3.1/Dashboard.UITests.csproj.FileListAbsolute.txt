@@ -1,0 +1,360 @@
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\testhost.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\testhost.exe
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.engine.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.deps.json
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.runtimeconfig.json
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.runtimeconfig.dev.json
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.pdb
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NBitcoin.Secp256k1.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.ABI.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Accounts.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.BlockchainProcessing.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Contracts.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Hex.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.JsonRpc.Client.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.JsonRpc.RpcClient.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.KeyStore.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Model.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.RLP.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.RPC.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Signer.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Util.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Web3.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.framework.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\WebDriver.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.csproj.AssemblyReference.cache
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.AssemblyInfoInputs.cache
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.AssemblyInfo.cs
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.csproj.CoreCompileInputs.cache
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.csproj.CopyComplete
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.dll
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.pdb
+Y:\Gluwa\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.genruntimeconfig.cache
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\testhost.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\testhost.exe
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.engine.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.deps.json
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.runtimeconfig.json
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.runtimeconfig.dev.json
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.pdb
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NBitcoin.Secp256k1.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.ABI.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Accounts.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.BlockchainProcessing.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Contracts.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Hex.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.JsonRpc.Client.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.JsonRpc.RpcClient.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.KeyStore.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Model.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.RLP.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.RPC.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Signer.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Util.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Web3.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.framework.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\WebDriver.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.csproj.AssemblyReference.cache
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.GeneratedMSBuildEditorConfig.editorconfig
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.AssemblyInfoInputs.cache
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.AssemblyInfo.cs
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.csproj.CoreCompileInputs.cache
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.csproj.CopyComplete
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.dll
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.pdb
+Y:\SRC\AzDO\CdUtils\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.genruntimeconfig.cache
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\testhost.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\testhost.exe
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.engine.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.deps.json
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.runtimeconfig.json
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.runtimeconfig.dev.json
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Dashboard.UITests.pdb
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NBitcoin.Secp256k1.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.ABI.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Accounts.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.BlockchainProcessing.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Contracts.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Hex.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.JsonRpc.Client.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.JsonRpc.RpcClient.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.KeyStore.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Model.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.RLP.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.RPC.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Signer.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Util.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Nethereum.Web3.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\nunit.framework.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\WebDriver.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.csproj.AssemblyReference.cache
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.AssemblyInfoInputs.cache
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.AssemblyInfo.cs
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.csproj.CoreCompileInputs.cache
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.csproj.CopyComplete
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.dll
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.pdb
+D:\Tools & Installl\QA\Selenium.UITest\Dashboard.UITests\obj\Debug\netcoreapp3.1\Dashboard.UITests.genruntimeconfig.cache

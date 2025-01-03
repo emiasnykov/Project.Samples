@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using NUnit.Framework;
+using OpenQA.Selenium.Support.UI;
+using System.Text.RegularExpressions;
+
+
+
+namespace CSTool.UITests
+{
+    public class CryptoWorldActiveStatusTests
+    {
+        IWebDriver driver;
+
+        [SetUp]
+        public void BeforeEachTest()
+        {
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("https://gtool-test.azurewebsites.net/");
+        }
+
+       [Test]
+       public void CryptoWorldActiveStatus_Loads()
+       {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Crypto World Active Status")).Click();
+
+            SharedMethods.Screenshot(driver);
+            var result1 = driver.FindElements(By.XPath("/html/body/div/div[1]/h5[1]")).Where(c => c.Text.Contains("Recent Profit"));
+            Assert.IsTrue(result1.LastOrDefault().Displayed);
+
+            var result2 = driver.FindElements(By.XPath("/html/body/div/div[1]/h5[2]")).Where(c => c.Text.Contains("Deposit Update Fail Count"));
+            Assert.IsTrue(result2.LastOrDefault().Displayed);
+
+            var result3 = driver.FindElements(By.XPath("/html/body/div/div[1]/h5[3]")).Where(c => c.Text.Contains("Withdraw Update Fail Count"));
+            Assert.IsTrue(result3.LastOrDefault().Displayed);
+        }
+
+        [TearDown]
+        public void CleanUp()
+        {
+            if (driver != null)
+                driver.Quit();
+        }
+
+    }
+}

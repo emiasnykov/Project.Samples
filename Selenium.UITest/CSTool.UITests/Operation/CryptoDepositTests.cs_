@@ -1,0 +1,206 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using NUnit.Framework;
+using OpenQA.Selenium.Support.UI;
+using System.Text.RegularExpressions;
+using System.Globalization;
+using System.Threading;
+using OpenQA.Selenium.Interactions;
+
+namespace CSTool.UITests
+{
+    public class CryptoDepositTests
+    {
+        IWebDriver driver;
+
+        [SetUp]
+        public void BeforeEachTest()
+        {
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("https://gtool-test.azurewebsites.net/");
+        }
+
+        [Test]
+        public void CryptoDeposit_SearchUsername()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Crypto Deposit")).Click();
+            var searchWord = driver.FindElement(By.Id("SearchCategory"));
+            var element = new SelectElement(searchWord);
+            element.SelectByText("UserEmailOrName");
+            driver.FindElement(By.Id("SearchString")).SendKeys("qa.crypto1");
+            driver.FindElement(By.CssSelector("#datetime-submit-form > input")).Click();
+
+            var result = driver.FindElements(By.XPath("/html/body/div/div[5]/table/tbody/tr[1]/td[1]/ul/li[7]")).Where(c => c.Text.Contains("qa.crypto1"));
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(result.LastOrDefault().Text.ToString() == "UserName : qa.crypto1");
+       }
+
+        [Test]
+        public void CryptoDeposit_StatusFilter_Failed()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Crypto Deposit")).Click();
+
+            var statusFilter = driver.FindElement(By.Id("Status"));
+            var element = new SelectElement(statusFilter);
+            element.SelectByText("Failed");
+            driver.FindElement(By.CssSelector("#datetime-submit-form > input")).Click();
+
+            var result = driver.FindElements(By.XPath("/html/body/div/div[5]/table/tbody/tr[1]/td[2]")).Where(c => c.Text == "Failed");
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(result.LastOrDefault().Displayed);
+        }
+
+        [Test]
+        public void CryptoDeposit_StatusFilter_TransactionMatched()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Crypto Deposit")).Click();
+
+            var statusFilter = driver.FindElement(By.Id("Status"));
+            var element = new SelectElement(statusFilter);
+            element.SelectByText("TransactionMatched");
+            driver.FindElement(By.CssSelector("#datetime-submit-form > input")).Click();
+
+            var result = driver.FindElements(By.XPath("/html/body/div/div[5]/table/tbody/tr[1]/td[2]")).Where(c => c.Text == "TransactionMatched");
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(result.LastOrDefault().Displayed);
+        }
+
+        [Test]
+        public void CryptoDeposit_StatusFilter_Received()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Crypto Deposit")).Click();
+
+            var statusFilter = driver.FindElement(By.Id("Status"));
+            var element = new SelectElement(statusFilter);
+            element.SelectByText("Received");
+            driver.FindElement(By.CssSelector("body > div > div.row > form > input")).Click();
+
+            try
+            {
+                var result = driver.FindElements(By.XPath("/html/body/div/table/tbody/tr[1]/td[3]")).Where(c => c.Text == "Deposited");
+                SharedMethods.Screenshot(driver);
+                Assert.IsTrue(result.LastOrDefault().Displayed);
+            }
+            catch
+            {
+                var count = driver.FindElements(By.XPath("/html/body/div/table/tbody/tr[1]/td")).Count();
+                SharedMethods.Screenshot(driver);
+                Assert.IsTrue(count == 0);
+            }
+        }
+
+        //need to clean this up
+        [Test]
+        public void CryptoDeposit_FilterDates()
+        {
+            SharedMethods.Login(driver);
+            SharedMethods.SelectDropDown(driver, "Operation");
+            driver.FindElement(By.LinkText("Crypto Deposit")).Click();
+
+            var startDateTime = driver.FindElement(By.Id("StartDateTime"));
+            var endDateTime = driver.FindElement(By.Id("EndDateTime"));
+
+            var today = "";
+            var earlier = "";
+
+            today = DateTime.Now.ToString("yyyy \t MM dd hhmm");
+            earlier = DateTime.Now.AddMonths(-3).ToString("yyyy \t MM dd hhmm");
+
+            startDateTime.SendKeys(earlier + Keys.ArrowUp);
+            endDateTime.SendKeys(today + Keys.ArrowUp);
+
+            var startDateTimeString = startDateTime.GetAttribute("value").ToString();
+            var endDateTimeString = endDateTime.GetAttribute("value").ToString();
+
+            if (!startDateTimeString.Contains("2019") && !startDateTimeString.Contains("2018"))
+            {
+                // Assume date is expected in alternate format
+                today = DateTime.Now.ToString("MM/dd/yyyy \t hhmm");
+                earlier = DateTime.Now.AddMonths(-3).ToString("MM/dd/yyyy \t hhmm");
+                startDateTime.SendKeys(earlier + Keys.ArrowUp);
+                endDateTime.SendKeys(today + Keys.ArrowUp);
+            }
+
+            Thread.Sleep(2000);
+
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(45));
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            js.ExecuteScript("window.scrollTo(0, -document.body.scrollHeight)");
+            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(By.CssSelector("#datetime-submit-form > input"))).Click();
+
+            var resultCount = driver.FindElements(By.XPath("/html/body/div/div[5]/table/tbody/tr")).Count();
+            string latestEntry = driver.FindElements(By.XPath("/html/body/div/div[5]/table/tbody/tr[1]/td[1]/ul/li[5]/span")).LastOrDefault().Text;
+            string earliestEntry = driver.FindElements(By.XPath("/html/body/div/div[5]/table/tbody/tr[" + resultCount+ "]/td[1]/ul/li[5]/span")).LastOrDefault().Text;
+
+            latestEntry = Regex.Replace(latestEntry, "DepositReceivedDateTime : ", "");
+            earliestEntry = Regex.Replace(earliestEntry, "DepositReceivedDateTime : ", "");
+
+            Console.WriteLine("latestEntry: " + latestEntry);
+            Console.WriteLine("earliestEntry: " + earliestEntry);
+
+            Regex regex = new Regex(@"^[a-zA-Z]{3,9} \d{1,2} ([01]\d|2[0-3]):?([0-5]\d)");
+
+            Match latestEntryMatch;
+            Match earliestEntryMatch;
+
+            latestEntryMatch = regex.Match(latestEntry);
+            earliestEntryMatch = regex.Match(earliestEntry);
+
+            Console.WriteLine("latestEntryMatch: " + latestEntryMatch);
+            Console.WriteLine("earliestEntryMatch: " + earliestEntryMatch);
+
+            DateTime dateEarliest;
+            DateTime dateLatest;
+
+            dateLatest = DateTime.ParseExact(latestEntryMatch.Value, "MMMM d HH:mm", CultureInfo.InvariantCulture);
+            dateEarliest = DateTime.ParseExact(earliestEntryMatch.Value, "MMMM d HH:mm", CultureInfo.InvariantCulture);
+
+            Console.WriteLine("dateLatest: " + dateLatest);
+            Console.WriteLine("dateEarliest: " + dateEarliest);
+
+            if (dateLatest > DateTime.Now)
+                dateLatest = dateLatest.AddYears(-1);
+            if (dateEarliest > DateTime.Now)
+                dateEarliest = dateEarliest.AddYears(-1);
+
+            startDateTime = driver.FindElement(By.Id("StartDateTime"));
+            endDateTime = driver.FindElement(By.Id("EndDateTime"));
+
+            startDateTimeString = startDateTime.GetAttribute("value").ToString();
+            endDateTimeString = endDateTime.GetAttribute("value").ToString();
+
+            Console.WriteLine("startDateTime: " + startDateTimeString);
+            Console.WriteLine("endDateTime: " + endDateTimeString);
+
+            var startDate = Convert.ToDateTime(startDateTimeString);
+            var endDate = Convert.ToDateTime(endDateTimeString);
+            var earlierThan = DateTime.Compare(startDate.Date, dateEarliest.Date);
+            var laterThan = DateTime.Compare(endDate.Date, dateLatest.Date);
+
+            SharedMethods.Screenshot(driver);
+            Assert.IsTrue(earlierThan <= 0);
+            Assert.IsTrue(laterThan >= 0);
+        }
+
+        [TearDown]
+        public void CleanUp()
+        {
+            if (driver != null)
+                driver.Quit();
+        }
+
+    }
+}
