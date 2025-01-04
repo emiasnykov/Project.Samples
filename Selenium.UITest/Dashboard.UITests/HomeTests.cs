@@ -9,7 +9,7 @@ using System;
 namespace Dashboard.UITests
 {
     [TestFixture("Test")]
-    [TestFixture("Stag")]
+    [TestFixture("Stage")]
     internal class HomeTests
     {
         public IWebDriver driver;
@@ -46,7 +46,7 @@ namespace Dashboard.UITests
         {
             using (var init = new TestScope(browser, useEnvironment))
             {
-                //Setup
+                // Setup
                 driver = init.Instance;
                 url = init.Env;
 
@@ -54,13 +54,13 @@ namespace Dashboard.UITests
                 LoginPage.GoToUrl(driver, url);                                     
                 LoginPage.LoginAs(driver, LoginUserEnum.ValidUser);                  
 
-                //Steps
+                // Steps
                 HomePage.UserDropDownMenu(driver).Click();                         
                 HomePage.ChangeEmail(driver).Click();                             
                 HomePage.NewEmailAddress(driver).SendKeys("qa+selenium@gluwa.com");  // Add new valid email
                 HomePage.SubmitBtn(driver).Click();                                 
 
-                //Assert
+                // Assert
                 Assertions.ConfirmNewEmail(driver);                                  // Assert confirmation message is displayed
             }
         }
@@ -72,7 +72,7 @@ namespace Dashboard.UITests
         {
             using (var init = new TestScope(browser, useEnvironment))
             {
-                //Setup
+                // Setup
                 driver = init.Instance;
                 url = init.Env;
 
@@ -80,11 +80,11 @@ namespace Dashboard.UITests
                 LoginPage.GoToUrl(driver, url);                                   
                 LoginPage.LoginAs(driver, LoginUserEnum.ValidUser);               
 
-                //Steps
+                // Steps
                 HomePage.UserDropDownMenu(driver).Click();                        
                 HomePage.ChangePassword(driver).Click();
 
-                //Assertions
+                // Assertions
                 Assertions.VerifyChangePasswordDisplayed(driver);     // Confirm 'Change Password' page is opened
             }
         }
@@ -96,7 +96,7 @@ namespace Dashboard.UITests
         {
             using (var init = new TestScope(browser, useEnvironment))
             {
-                //Setup
+                // Setup
                 driver = init.Instance;
                 url = init.Env;
 
@@ -104,10 +104,10 @@ namespace Dashboard.UITests
                 LoginPage.GoToUrl(driver, url);                                   
                 LoginPage.LoginAs(driver, LoginUserEnum.ValidUser);  
 
-                //Steps
+                // Steps
                 HomePage.ViewSecretKey(driver).Click();                 // Show Secret Key
 
-                //Assertions
+                // Assertions
                 Assertions.VerifyHiddenSecretDisplayed(driver);         // Confirm Secret Key is not hidden
             }
         }
@@ -119,7 +119,7 @@ namespace Dashboard.UITests
         {
             using (var init = new TestScope(browser, useEnvironment))
             {
-                //Setup
+                // Setup
                 driver = init.Instance;
                 url = init.Env;
 
@@ -127,7 +127,7 @@ namespace Dashboard.UITests
                 LoginPage.GoToUrl(driver, url);
                 LoginPage.LoginAs(driver, LoginUserEnum.ValidUser);
 
-                //Steps
+                // Steps
                 HomePage.ViewSecretKey(driver).Click();
                 string oldKey = HomePage.GetSecretKey(driver);    // Get old secret key
                 HomePage.ResetSecretKey(driver).Click();          // Reset key
@@ -135,7 +135,7 @@ namespace Dashboard.UITests
                 HomePage.ViewSecretKey(driver).Click();
                 string newKey = HomePage.GetSecretKey(driver);    // Get new secret key
 
-                //Assert
+                // Assert
                 Assert.AreNotEqual(oldKey, newKey);               // Confirm reset of secret key
             }
         }
@@ -147,7 +147,7 @@ namespace Dashboard.UITests
         {
             using (var init = new TestScope(browser, useEnvironment))
             {
-                //Setup
+                // Setup
                 driver = init.Instance;
                 url = init.Env;
 
@@ -155,20 +155,20 @@ namespace Dashboard.UITests
                 LoginPage.GoToUrl(driver, url);                                   
                 LoginPage.LoginAs(driver, LoginUserEnum.ValidUser);            
 
-                //Steps
+                // Steps
                 HomePage.UserDropDownMenu(driver).Click();
                 HomePage.SwitchLanguage(driver).Click();
-                HomePage.SelectKoreanLanguage(driver).Click();         //Switch to Korean language
+                HomePage.SelectKoreanLanguage(driver).Click();         // Switch to Korean language
 
-                //Assert point one
+                // Assert point one
                 Assertions.ConfirmKoreanLanguageSelected(driver);      // Confirm Korean
 
-                //Steps
+                // Steps
                 HomePage.UserDropDownMenu(driver).Click();
                 HomePage.SwitchLanguage(driver).Click();
-                HomePage.SelectEnglishLanguage(driver).Click();        //Switch back to English language
+                HomePage.SelectEnglishLanguage(driver).Click();        // Switch back to English language
 
-                //Assert point two
+                // Assert point two
                 Assertions.ConfirmEnglishLanguageSelected(driver);     // Confirm English
             }
         }
@@ -180,7 +180,7 @@ namespace Dashboard.UITests
         {
             using (var init = new TestScope(browser, useEnvironment))
             {
-                //Setup
+                // Setup
                 driver = init.Instance;
                 url = init.Env;
 
@@ -188,17 +188,17 @@ namespace Dashboard.UITests
                 LoginPage.GoToUrl(driver, url);                                   
                 LoginPage.LoginAs(driver, LoginUserEnum.ValidUser);               
 
-                //Steps
+                // Steps
                 HomePage.ClearWhitelistedIPaddresses(driver);                    
                 HomePage.AddWhiteListIpAddressBtn(driver).Click();
                 HomePage.AddWhiteListIpAddressValue(driver).Clear();
-                HomePage.AddWhiteListIpAddressValue(driver).SendKeys("100.10.10.1"); //Add valid whitelisted IP address
+                HomePage.AddWhiteListIpAddressValue(driver).SendKeys("100.10.10.1");  // Add valid whitelisted IP address
                 HomePage.SubmitNewWhitelistIPAddress(driver).Click();             
 
-                //Assert point one
+                // Assert point one
                 Assertions.WhitelistedIpDisplayed(driver);                           // Confirm new Ip is displayed
 
-                //CleanUP
+                // CleanUP
                 HomePage.ClearWhitelistedIPaddresses(driver);
             }
         }
@@ -210,7 +210,7 @@ namespace Dashboard.UITests
         {
             using (var init = new TestScope(browser, useEnvironment))
             {
-                //Setup
+                // Setup
                 driver = init.Instance;
                 url = init.Env;
 
@@ -218,17 +218,23 @@ namespace Dashboard.UITests
                 LoginPage.GoToUrl(driver, url);                                   
                 LoginPage.LoginAs(driver, LoginUserEnum.ValidUser);               
 
-                //Steps
+                // Steps
                 HomePage.ClearWhitelistedIPaddresses(driver);                     
                 HomePage.AddWhiteListIpAddressBtn(driver).Click();
                 HomePage.AddWhiteListIpAddressValue(driver).Clear();
-                HomePage.AddWhiteListIpAddressValue(driver).SendKeys("100.10.1"); //Add invalid whitelisted IP address
+                HomePage.AddWhiteListIpAddressValue(driver).SendKeys("100.10.1"); // Add invalid whitelisted IP address
 
-                //Assertions
+                // Assertions
                 Assertions.VerifyInvalidWhitelistedIpAddress(driver);             // Error msg is displayed
             }
         }
-        
+
+
+        /// <summary>
+        /// Initialization
+        /// Set environment
+        /// TearDown
+        /// </summary>
         private sealed class TestScope : IDisposable
         {
             public IWebDriver Instance { get; }
@@ -251,7 +257,6 @@ namespace Dashboard.UITests
                     Instance.Quit();
                 }
             }
-
         }
     }
 }

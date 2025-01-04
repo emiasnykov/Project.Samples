@@ -5,3 +5,8 @@
 *.manifest
 *.editorconfig
 *netcoreapp3.1*
+*.cache
+Selenium.UITest/AdminTool.UITests/obj/Debug/netcoreapp3.1/AdminTool.UITests.assets.cache
+Selenium.UITest/BlockExplorer.UI.Tests/obj/Debug/netcoreapp3.1/BlockExplorer.UI.Tests.assets.cache
+Selenium.UITest/CSTool.UITests/obj/Debug/netcoreapp3.1/CSTool.UITests.assets.cache
+Selenium.UITest/Dashboard.UITests/obj/Debug/netcoreapp3.1/Dashboard.UITests.assets.cache
