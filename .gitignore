@@ -1,0 +1,7 @@
+*.testlog
+*.suo
+*.dll
+*.cache
+*.manifest
+*.editorconfig
+*netcoreapp3.1*
