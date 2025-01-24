@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A55A5DF3-84D2-46A0-BDF4-4100A03E68DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>GluwaPro.UITest</RootNamespace>
+    <AssemblyName>GluwaPro.UITest</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.AddIn" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.55.0" />
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.55.0.2371" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="MSTest.TestFramework">
+      <Version>3.7.0</Version>
+    </PackageReference>
+    <PackageReference Include="NBitcoin" Version="6.0.10" />
+    <PackageReference Include="Nethereum.Signer" Version="4.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit.Engine" Version="3.11.1" />
+    <PackageReference Include="NUnit3TestAdapter">
+      <Version>4.0.0</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="RestSharp" Version="106.12.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Buffers" Version="4.5.1" />
+    <PackageReference Include="Xamarin.UITest" Version="3.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GluwaPro.UITest.sln" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="GluwaPro.Tests\InvestTest.cs" />
+    <Compile Include="GluwaPro.Tests\HomeTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppInitializer.cs" />
+    <Compile Include="GluwaPro.Tests\MenuTests.cs" />
+    <Compile Include="TestUtilities\CurrencyUtils\EConversionTestIDForTestRail.cs" />
+    <Compile Include="TestUtilities\CurrencyUtils\ECurrencyTestIDForTestRail.cs" />
+    <Compile Include="TestUtilities\Methods\EPageNames.cs" />
+    <Compile Include="TestUtilities\Methods\HomeMethod\HomeViewHandle.cs" />
+    <Compile Include="TestUtilities\Methods\HomeMethod\HomeViewInfo.cs" />
+    <Compile Include="TestUtilities\Methods\InvestMethod\InvestDepositViewInfo.cs" />
+    <Compile Include="TestUtilities\Methods\InvestMethod\InvestDrawDownViewInfo.cs" />
+    <Compile Include="TestUtilities\Methods\InvestMethod\InvestPreDepositViewInfo.cs" />
+    <Compile Include="TestUtilities\Methods\MenuMethod\MenuViewInfo.cs" />
+    <Compile Include="TestUtilities\Methods\SendMethod\SendViewHandle.cs" />
+    <Compile Include="TestUtilities\Methods\SharedViewHandle.cs" />
+    <Compile Include="TestUtilities\Methods\SharedViewInfo.cs" />
+    <Compile Include="TestUtilities\Methods\LocalizationMethod\ELanguage.cs" />
+    <Compile Include="TestUtilities\Methods\LocalizationMethod\Localization.cs" />
+    <Compile Include="TestUtilities\CurrencyUtils\ECurrencyExtensions.cs" />
+    <Compile Include="TestUtilities\CurrencyUtils\ECurrency.cs" />
+    <Compile Include="TestUtilities\CurrencyUtils\EConversionExtensions.cs" />
+    <Compile Include="TestUtilities\CurrencyUtils\EConversion.cs" />
+    <Compile Include="TestUtilities\Materials\AutomationID.cs" />
+    <Compile Include="TestUtilities\Methods\ETestcaseTypes.cs" />
+    <Compile Include="TestUtilities\Methods\ExchangeMethod\ExchangeCommonTest.cs" />
+    <Compile Include="TestUtilities\Methods\ExchangeMethod\ExchangeFunction.cs" />
+    <Compile Include="TestUtilities\Methods\ExchangeMethod\ExchangeViewHandle.cs" />
+    <Compile Include="TestUtilities\Methods\ExchangeMethod\ExchangeViewInfo.cs" />
+    <Compile Include="TestUtilities\Methods\SendMethod\SendViewInfo.cs" />
+    <Compile Include="TestUtilities\Methods\Shared.cs" />
+    <Compile Include="TestUtilities\Methods\SharedFunction.cs" />
+    <Compile Include="TestUtilities\Models\_ExchangeViewModels\CreateExchangeViewItem.cs" />
+    <Compile Include="TestUtilities\Methods\TestRailApiMethod\ApiClient.cs" />
+    <Compile Include="TestUtilities\Methods\TestRailApiMethod\ApiException.cs" />
+    <Compile Include="TestUtilities\Methods\TestRailApiMethod\ETestResult.cs" />
+    <Compile Include="TestUtilities\Methods\TestRailApiMethod\TestIDForTestRail.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\BondAccountViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\DepositViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\DrawdownTransactionPreviewViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\MatureBondAccountBalanceViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\NoTransactionHistoryViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\TransactionHistoryDepositConfirmFailViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\TransactionHistoryDepositPendingViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\TransactionHistoryViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\DepositTransactionPreviewViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\TransactionSubmittedViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_BondAccountViewModels\WalletAddressViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_ExchangeViewModels\QuoteAcceptFailViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_ExchangeViewModels\QuoteAcceptViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_ExchangeViewModels\QuoteCreateFailViewItem.cs" />
+    <Compile Include="TestUtilities\Models\_ExchangeViewModels\QuoteCreateSuccessViewItem.cs" />
+    <Compile Include="TestUtilities\Models\HomeViewModels\DoubleCheckViewItem.cs" />
+    <Compile Include="TestUtilities\Models\HomeViewModels\EnterRecoverPhraseViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\AccountSetupStepsCheckListViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\AccountSetupStepsCompletedViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\AddressDocumentRequiredViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\AddressDocumentViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\AvailableToInvestExpendViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\DocumentActionRequiredViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\DocumentRequiredCommonViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\DocumentRequiredViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\DocumentReviewInProgressViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\DrawdownMatureBondAccountBalanceViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\DrawdownTransactionViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\EnterVerificationCodeViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\GrabAPhoneViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\GrabPhoneViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\IdentityVerificationRequiredViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\AvailableToInvestViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\InvestDashbaordWithReferralCodeViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\NiceOneViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\PleaseDocumentsLinkedViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\PleaseSaveTheDocumentsLinkedBelowViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\PortfolioDashboardAccountSetupIncompleteExpendViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\PortfolioDashboardViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\TitleInvestViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\VerificationCompleteViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\WellNeedALittleMoreInformationFirstViewItem.cs" />
+    <Compile Include="TestUtilities\Models\InvestPreDepositViewModels\WeNeedMoreInformationFirstViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\EachMenuViewItem.cs" />
+    <Compile Include="TestUtilities\Models\NavigationViewModels\ExchangeViewItem.cs" />
+    <Compile Include="TestUtilities\Models\PasscodeViewModels\ChangePasscodeViewItem.cs" />
+    <Compile Include="TestUtilities\Models\PasscodeViewModels\GetPasscodeMismatchViewItem.cs" />
+    <Compile Include="TestUtilities\Models\PasscodeViewModels\OpenGluwaWalletEnterPasscodeViewItem.cs" />
+    <Compile Include="TestUtilities\Models\PasscodeViewModels\OpenGluwaWalletEnterWrongPasscodeViewItem.cs" />
+    <Compile Include="TestUtilities\Models\PasscodeViewModels\PasscodeViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SendViewModels\QRCodeScannerViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SendViewModels\SendPasswordViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SendViewModels\SendPreviewWithInsufficientFunds.cs" />
+    <Compile Include="TestUtilities\Models\SendViewModels\SendToAddressViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SendViewModels\SynchronizingViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SharedViewModels\EnterWalletPasswordViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SharedViewModels\ErrorViewItem.cs" />
+    <Compile Include="TestUtilities\Models\HomeViewModels\OpenWalletWithPasscodeViewItem.cs" />
+    <Compile Include="TestUtilities\Models\HomeViewModels\PageWithOneButtonViewItem.cs" />
+    <Compile Include="TestUtilities\Models\HomeViewModels\PageWithTwoButtonsViewItem.cs" />
+    <Compile Include="TestUtilities\Models\HomeViewModels\PasswordErrorViewItem.cs" />
+    <Compile Include="TestUtilities\Models\HomeViewModels\PasswordWithDescriptionViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\IdentificationLoginViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\MenuListBottomViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\SignatureEnterMessageViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\SignatureViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SharedViewModels\PageWithDescriptionAndOneButton.cs" />
+    <Compile Include="TestUtilities\Models\SharedViewModels\PasswordWithNoDescriptionViewItem.cs" />
+    <Compile Include="TestUtilities\Models\HomeViewModels\TitleWithOneButtonViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SharedViewModels\WarningPopupWithTwoButtonsViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SharedViewModels\WarningPopupWithOneButtonViewItem.cs" />
+    <Compile Include="TestUtilities\Models\NavigationViewModels\AddressViewItem.cs" />
+    <Compile Include="TestUtilities\Models\NavigationViewModels\HistoryViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SendViewModels\MyWalletsViewItem.cs" />
+    <Compile Include="TestUtilities\Models\NavigationViewModels\NavigationViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\AdditionalSecurityViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\AppearanceViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\IdentificationViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\LanguageViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\MenuListTopViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\MessageSignedViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\PrivateKeysAddressViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\ResetWalletPopViewItem.cs" />
+    <Compile Include="TestUtilities\Models\MenuViewModels\SandboxModeViewItem.cs" />
+    <Compile Include="TestUtilities\Models\NavigationViewModels\NotificationViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SendViewModels\EnterAddressViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SendViewModels\SendPreviewItem.cs" />
+    <Compile Include="TestUtilities\Models\SendViewModels\SendTransactionViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SendViewModels\SendViewItem.cs" />
+    <Compile Include="TestUtilities\Models\SharedViewModels\EnterPasswordViewItem.cs" />
+    <Compile Include="TestUtilities\TestDebugging\ReplTools.cs" />
+    <Compile Include="TestUtilities\TestLogging\ScreenshotTools.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
