@@ -25,11 +25,8 @@ RestSharp.NUnitTest/Transfer.Tests/obj/Debug/netcoreapp3.1/Transfer.Tests.csproj
 *.config
 *.pdb
 *.CopyComplete
-*.exe
 *.tmp
 *.addins
-*.targets
-*.xml
 *.nupkg
 *.p7s
 *.ps1
