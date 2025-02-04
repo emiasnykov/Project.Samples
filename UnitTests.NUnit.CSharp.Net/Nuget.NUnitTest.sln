@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gluwa.SDK_dotnet.Tests", "Gluwa.SDK_dotnet\Gluwa.SDK_dotnet.Tests.csproj", "{D225434D-C5D6-44D1-BD71-526FDED996E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D225434D-C5D6-44D1-BD71-526FDED996E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D225434D-C5D6-44D1-BD71-526FDED996E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D225434D-C5D6-44D1-BD71-526FDED996E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D225434D-C5D6-44D1-BD71-526FDED996E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4414FF51-4FDC-4AC0-86E2-BCEEB9A7D743}
+	EndGlobalSection
+EndGlobal
